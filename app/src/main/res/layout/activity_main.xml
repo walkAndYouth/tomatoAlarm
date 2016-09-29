@@ -9,6 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.zhangdede.tomatoalarm.MainActivity">
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/WorkJob"
+        android:background="#709999"
+        />
 
     <Button
         android:layout_width="match_parent"
@@ -16,7 +23,8 @@
         android:id="@+id/startVibrate"
         android:text="startVibrate"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/WorkJob"/>
 
     <Button
         android:layout_width="match_parent"
